@@ -235,7 +235,6 @@ public class QueryProcessor {
 			}
 			).count();
 			
-			System.out.println(list);
 		}
 		else if(!response.isEmpty()&& response.charAt(0)=='{') {
 			
