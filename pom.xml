@@ -81,7 +81,7 @@
                 <version>${spring.boot.maven.plugin}</version>
                 <configuration>
                     <fork>true</fork>
-                    <mainClass>com.json.sql.Application</mainClass>
+                    <mainClass>json.sql.Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>
