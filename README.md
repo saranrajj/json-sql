@@ -5,7 +5,7 @@ The json-sql is spring based command line tool, which accepts the rest get endpo
 
 To start the command line download the java executable from the below link,
 
-[Download V0.1-beta](https://github.com/saranrajj/json-sql/blob/master/dist/V-0.1.zip)
+[Download V0.1-beta](https://github.com/saranrajj/json-sql/blob/master/dist/V-0.1.zip?raw=true)
 and run it as,
 
     > java -jar json-sql.jar
