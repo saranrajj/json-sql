@@ -325,7 +325,7 @@ public class QueryProcessor {
 		}		
 		return ConditionalLiteralWrapper.builder()
 				.conditionText(conditionText)
-				.absoluteValue(row.getRowMap().get(conditionText).toString())
+				.absoluteValue(row.getRowMap().get(conditionText)==null?"":row.getRowMap().get(conditionText).toString())
 				.type(Types.COLUMNVALUE).build();
 	}
 	
@@ -422,7 +422,8 @@ public class QueryProcessor {
 				if(null==row.getProjectedMap()) {
 					row.setProjectedMap(new HashMap<>());
 				}
-				row.getProjectedMap().put(column, row.getRowMap().get(column).toString());
+				String columnValue = row.getRowMap().get(column)==null?"":row.getRowMap().get(column).toString();
+				row.getProjectedMap().put(column, columnValue);
 			});	
 			row.getRowMap().clear();
 			processedRows.add(row);
