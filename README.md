@@ -66,7 +66,8 @@ and run it as,
                  rates.CAD |           rates.DKK |
                     1.4625 |              7.4715 |
 
-See more example in the article below.
+See more example in the article below. 
+https://medium.com/@saranraj.j76/sneak-peek-on-the-json-sql-like-command-client-186e3a1ae1ff
 
 # Features in plan for future:
   1.  More conditional support (or condition, >,<, != operations in conditions)
